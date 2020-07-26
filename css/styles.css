@@ -3,11 +3,195 @@ body{
   box-sizing: border-box;
 }
 .header-image{
-  background-image: url(../assets/backgrounds/h_img.jpg);
+  background-image: url(..//assets/backgrounds/h_img.jpg);
   height: auto;
 }
 .content{
   margin-left: auto;
   margin-right: auto;
   padding: 70px;
+}
+logo{
+    text-align-last: center;
+    padding-top: 200px;
+    padding-bottom: 30px;
+
+}
+.banner1,.banner2 {
+    text-align: center;
+    color: white;
+}
+.banner2 {
+    padding-bottom: 120px;
+}
+
+#mouse_click{
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.About{
+    text-align: center;
+    height: 300px;
+    padding: 30px;
+    line-height: 200%;
+}
+.s_image{
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    height: 350px;
+    padding-top: 100px;
+    line-height: 200%;
+}
+.banner2-1,.banner2-2 {
+    text-align: center;
+    color: white;
+
+}
+.row{
+    text-align: center;
+}
+.What-we-do{
+    display: inline;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 150px;
+}
+.we-do{
+    text-align: center;
+    padding-top: 40px;
+    /* padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px; */
+}
+.PortF1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.container{
+    text-align: center;
+    position: center;
+    width: 1200px;
+    height: 280px;
+    margin: 300px, auto;
+    background: white;
+}
+.container .box {
+    position: relative;
+    display: block;
+    width: calc(400px - 60px);
+    height: calc(300px - 80px);
+    float: left;
+    margin: 15px;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container .box .icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0);
+}
+.container .box .icon .btn_1{
+    background: rgba(0, 0, 0, 0);
+    float: inherit;
+}
+.container .box .icon .btn_2{
+    background: rgba(0, 0, 0, 0);
+}
+.container .box .icon .btn_3{
+    background: rgba(0, 0, 0, 0);
+}
+.container .box .par_1{
+    display: none;
+    font-size: 15px;
+}
+.container .box .par_2{
+    display: none;
+    font-size: 15px;
+}
+.container .box .par_3{
+    display: none;
+    font-size: 15px;
+}
+
+.container{
+    position: relative;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.Portfolio{
+    padding: 50px;
+    text-align: center;
+}
+ .row1{
+    display: flex;
+    box-sizing: border-box;
+    padding: 30px,50px, 10px,20px;
+    border: 20px, 30px, 20px, 30px;
+    margin: 20px;
+    text-align: start;
+
+}
+
+.PortF1{
+    padding: 20px, 20px, 20px, 20px;
+}
+ .col-sm-3{
+    display: inline;
+    width: 33.33%;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+.row2{
+    display: flex;
+    box-sizing: border-box;
+    padding: 30px,50px, 10px,20px;
+    border: 20px, 30px, 40px,30px;
+    margin: 20px;
+    text-align: justify;
+}
+.col-sm-3:hover{
+    background-size:
+}
+.col-sm-3:after{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    content:attr(data-text);
+    transition: 0.5s;
+}
+.col-sm-3:hover:after{
+    opacity: 1;
+}
+
+.contact_us{
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    height: 450px;
+    text-align: center;
+    color: white;
+}
+form{
+    background: rgba(0, 0, 0, 0);
+}
+.social_icons{
+    text-align: center;
+    padding: 20px;
+}
+.txtb{
+    background: rgba(0, 0, 0, 0);
+}
+.contact_us .txtb label, input, textarea{
+    display: inline-block;
+
 }
