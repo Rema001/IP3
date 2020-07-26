@@ -1,0 +1,13 @@
+body{
+  margin: auto;
+  box-sizing: border-box;
+}
+.header-image{
+  background-image: url(../assets/backgrounds/h_img.jpg);
+  height: auto;
+}
+.content{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 70px;
+}
