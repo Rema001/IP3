@@ -8,13 +8,13 @@ body{
     margin-right: auto;
     padding: 50px;
 }
-.box{
+/*.box{
   background-image: url(./assets/backgrounds/h_img.jpg );
   padding: 100px;
   margin: 100px;
-}
+}*/
 .h_image{
-   background-image: url("../assets/backgrounds/h_img.jpg"); */
+   background-image: url("../assets/backgrounds/h_img.jpg");
     height:700px;
 
 }
@@ -45,7 +45,7 @@ body{
     line-height: 200%;
 }
 .s_image{
-    /*background-image: url("/assets/backgrounds/s_image.jpg");*/
+    background-image: url("../assets/backgrounds/s_image.jpg");
     height: 350px;
     padding-top: 100px;
     line-height: 200%;
@@ -183,7 +183,7 @@ body{
 }
 
 .contact_us{
-    background-image: url(../backgrounds/c_image.jpg);
+    background-image: url(../assets/backgrounds/c_image.jpg);
     height: 450px;
     text-align: center;
     color: white;
@@ -197,6 +197,7 @@ form{
 }
 .txtb{
     background: rgba(0, 0, 0, 0);
+    text-align: center;
 }
 .contact_us .txtb label, input, textarea{
     display: inline-block;
