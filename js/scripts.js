@@ -24,4 +24,16 @@ $(".btn_1").click(function(){
       $(".btn_3").toggle();
       $("p.par_3").toggle();
   });
+  $("#sendButton").click(function () {
+    var names = $("#names").val();
+    var email = $("#email").val();
+    var message = $("#textarea").val();
+    if ((names==="") (email==="") (message==="")) {
+      alert("Please, fill the required fields!");
+    }
+    else {
+      alert(names + ",we have received your message. Thank you for reaching out to us")
+    }
+  
+  });
 });
