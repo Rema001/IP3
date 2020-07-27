@@ -6,11 +6,11 @@ This webpage give information about Delani studios. It shows and hides informati
 It should have a hover effect on the portfolio and should employ mailChimp API on the contacts.
 
 ## SetUp Instruction And Breakdown
-One should open the live site and interact with the webpage. Should be able to hide and show description of 
+One should open the live site and interact with the webpage. Should be able to hide and show description of
 the icons and hover over the portfolio area.
 
 ## Live link
-Here is the live link
+Here is the live link  https://rema001.github.io/IP3/
 
 ## Behavior Driven Development
 | Our Program should handle                       | Input example | Output example                                   |
