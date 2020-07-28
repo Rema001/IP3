@@ -25,15 +25,17 @@ $(".btn_1").click(function(){
       $("p.par_3").toggle();
   });
   $("#sendButton").click(function () {
-    var names = $("#names").val();
-    var email = $("#email").val();
-    var message = $("#textarea").val();
+    var names = document.getElementsByiD("#names").value;
+    var email = document.getElementsByiD("#email").value;
+    var message = document.getElementsByiD("#textarea").value;
     if ((names==="") (email==="") (message==="")) {
       alert("Please, fill the required fields!");
+      event.preventDefault();
     }
     else {
-      alert(names + ",we have received your message. Thank you for reaching out to us")
+      alert(names + ",we have received your message. Thank you for reaching out to us");
     }
-  
+
+
   });
 });
