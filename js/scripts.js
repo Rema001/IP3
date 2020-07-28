@@ -36,6 +36,5 @@ $(".btn_1").click(function(){
       alert(names + ",we have received your message. Thank you for reaching out to us");
     }
 
-
   });
 });
